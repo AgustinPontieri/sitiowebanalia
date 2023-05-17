@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+ul{
+    text-align: left;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+ul li a {
+    color: black;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.principal img {
+    width: 100%;
+}
+
+header {
+    position: inherit;
+    top: 0;
+    background-color: rgb(128, 0, 0);
+    color: black;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Lora', serif;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Lora', serif;
+}
+
+footer {
+    text-align: right;
+    background-color: rgb(128, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+/*estilo main index*/
+.main-index {
+    margin: 15px 20px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*estilo cursos*/
+.main-cursos {
+    width: 350px;
+    height: 350px;
+    margin: 15px 20px;
+    padding: 20px;
+}
+
+/*estilo servicios*/
+.main-servicios {
+    width: 350px;
+    height: 350px;
+    margin: 15px 20px;
+    padding: 20px;
+}
+
+/*estilo tienda*/
+.main-tienda {
+    width: 35px;
+    height: 35px;
+    margin: 15px 20px;
+    padding: 20px;
+
+}
+
+/*estilo historia*/
+.main-historia {
+    margin: 15px 20px;
+    padding: 20px;
+}
+
+
+
+
+
+/*en desarrollo*/
+
+/*flexbox*/
+.cajas {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 20px;
+    padding: 10px;
+/*separacion entre cajas*/
+    gap: 15px;
+}
+
+.caja {
+    width: 25%;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+}
+.caja_content{
+    padding: 10px;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 15px;
+    grid-template-rows: auto;
+    grid-template-areas: 'area1 area2 area3 area4';
+}
+
+
+/*responsive en desarrollo*/
+prueba commit
+/*media querie para smartphone*/
+
+@media (max-width:480px) {indicar
+    
+}
