@@ -37,10 +37,16 @@ ul li a {
 
 header {
     position: inherit;
-    top: 0;
+    top: 1;
     background-color: rgb(128, 0, 0);
     color: black;
     height: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.nav-link:hover {
+    color: white;
 }
 
 body {
