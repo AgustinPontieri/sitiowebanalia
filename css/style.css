@@ -1,3 +1,113 @@
 
 
 /*# sourceMappingURL=style.css.map */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+ul{
+    text-align: left;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+ul li a {
+    color: black;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.principal img {
+    width: 100%;
+}
+
+header {
+    position: inherit;
+    top: 0;
+    background-color: #c60202;
+    color: black;
+    height: 100%;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Lora', serif;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Lora', serif;
+}
+
+footer {
+    text-align: right;
+    background-color: #c60202;
+    margin: 0;
+    padding: 0;
+}
+
+/*estilo main index*/
+.main-index {
+    margin: 15px 20px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*estilo cursos*/
+.main-cursos {
+    width: 350px;
+    height: 350px;
+    margin: 15px 20px;
+    padding: 20px;
+}
+
+/*estilo servicios*/
+.main-servicios {
+    width: 350px;
+    height: 350px;
+    margin: 15px 20px;
+    padding: 20px;
+}
+
+/*estilo tienda*/
+.main-tienda {
+    width: 35px;
+    height: 35px;
+    margin: 15px 20px;
+    padding: 20px;
+
+}
+
+/*estilo historia*/
+.main-historia {
+    margin: 15px 20px;
+    padding: 20px;
+}
