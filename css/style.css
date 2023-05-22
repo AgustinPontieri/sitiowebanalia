@@ -20,6 +20,20 @@ h2 {
     font-size: 30px;
 }
 
+h3 {
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h4 {
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
 h5 {
     text-align: center;
     padding: 30px;
@@ -93,6 +107,14 @@ footer {
     text-align: center;
 }
 
+.slide {
+    margin-top: 10px;
+}
+
+.slide img {
+    height: 65vh;
+}
+
 
 /*estilo cursos*/
 .main-cursos {
@@ -118,6 +140,16 @@ footer {
     margin: 15px 20px;
     padding: 20px;
 
+}
+
+form {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #c60202;
+    padding: 20px;
+    
+    
+    ;
 }
 
 /*estilo historia*/
