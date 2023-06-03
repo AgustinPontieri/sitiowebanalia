@@ -73,6 +73,9 @@ header {
     justify-content: center;
 }
 
+.navbar1 {
+    justify-content: center;
+}
 .nav-link:hover {
     color: white;
 }
