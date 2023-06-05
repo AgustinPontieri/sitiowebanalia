@@ -1,3 +1,19 @@
 .nav-link:hover {
     color: white;
   }
+  ul {
+    text-align: left;
+  }
+  
+  ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  ul li a {
+    color: black;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: bold;
+  }

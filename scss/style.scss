@@ -1,5 +1,6 @@
 //imports base
 @import 'base/vars';
+@import 'base/utilities';
 @import 'base/reset';
 
 //imports components
@@ -8,4 +9,9 @@
 
 //imports layout
 @import 'layout/index';
-@import 'layout/medias';
+@import 'layout/cursos';
+@import 'layout/historia';
+@import 'layout/servicios';
+@import 'layout/tienda';
+
+
