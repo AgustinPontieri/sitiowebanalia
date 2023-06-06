@@ -83,6 +83,10 @@ body h5 {
   font-weight: bold;
   font-size: 20px;
 }
+body p {
+  font-size: 18px;
+  color: black;
+}
 body .carousel-image {
   object-fit: cover;
   height: 100%;
@@ -114,30 +118,57 @@ body .main-cursos {
   margin-left: 20px;
   padding: 20px;
 }
+body .main-cursos p {
+  font-size: 18px;
+  color: black;
+}
 body .cartas {
   margin: 30px 30px;
 }
+body .card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
 
-.main-historia {
+body .main-historia {
   margin: 15px 20px;
   padding: 20px;
   text-align: center;
+  font-size: 16px;
+  color: black;
 }
-
-.imagen-historia {
+body .main-historia p {
+  font-size: 18px;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+body .main-historia .imagen-historia {
   max-width: 100%;
 }
 
 body .main-servicios {
   margin-top: 30px;
   margin-bottom: 30px;
-  margin: 15px 20px;
+  margin-left: 20;
+  margin-right: 20;
   padding: 20px;
-  font-weight: bold;
+  font-weight: lighter;
   text-align: center;
 }
 body .imagen-historia {
   max-width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20;
+  margin-right: 20;
+  padding: 20px;
+}
+body p {
+  font-size: 18px;
+  color: black;
 }
 
 body .main-tienda {
@@ -145,6 +176,12 @@ body .main-tienda {
   height: 35px;
   margin: 15px 20px;
   padding: 20px;
+}
+body .card-text {
+  text-align: center;
+  justify-content: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body form {
   width: 60%;

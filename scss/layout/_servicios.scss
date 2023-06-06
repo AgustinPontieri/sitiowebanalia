@@ -2,12 +2,22 @@ body{
 .main-servicios {
     margin-top: 30px;
     margin-bottom: 30px;
-    margin: 15px 20px;
+    margin-left: 20;
+    margin-right: 20;
     padding: 20px;
-    font-weight: bold;
+    font-weight: lighter;
     text-align: center;
   }
   .imagen-historia {
     max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20;
+    margin-right: 20;
+    padding: 20px;
+  }
+  p {
+    font-size: 18px;
+    color: black;
   }
 }

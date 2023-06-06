@@ -1,8 +1,20 @@
-.main-historia {
+body{
+    .main-historia {
     margin: 15px 20px;
     padding: 20px;
     text-align: center;
+    font-size: 16px;
+    color: black;
+    p {
+      font-size: 18px;
+      color: black;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .imagen-historia {
+      max-width: 100%;
+    }
   }
-  .imagen-historia {
-    max-width: 100%;
-  }
+}
