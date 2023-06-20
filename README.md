@@ -2,7 +2,7 @@
 # pagina web Analia Gauto
 
 notas:
-Falta incorporar mas imagenes a la tienda
+Un sitio para explorar desde las bases de la belleza hasta lo mas complejo. Orientado para formar profesionales, ofrecer los mejores productos y servicios.
 
 =======
 # sitiowebanalia
